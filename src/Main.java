@@ -12,7 +12,7 @@ public class Main {
         int userMoney = 300;
         int replenishment = 2300;
         int numberBonus = 0;
-        if (replenishment>=1000) {
+        if (replenishment >= 1000) {
             numberBonus = replenishment / 100;
         }
         int newSum = userMoney + replenishment + numberBonus;
